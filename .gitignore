@@ -1,9 +1,6 @@
 # Claude Code local state
 .claude/
 
-# Brand & project image assets (kept locally, not committed)
-assets/
-
 # OS / editor
 .DS_Store
 Thumbs.db
