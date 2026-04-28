@@ -1,0 +1,29 @@
+# Claude Code local state
+.claude/
+
+# Brand & project image assets (kept locally, not committed)
+assets/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node (in case you ever add build tooling)
+node_modules/
+dist/
+build/
+
+# Env / secrets
+.env
+.env.*
+!.env.example

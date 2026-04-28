@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nuevarix Dev — We design, build, and scale agentic AI, generative AI, and full-stack AI SaaS solutions for ambitious teams." />
+  <meta name="keywords" content="AI development, agentic AI, generative AI, AI SaaS, AI automation, full-stack AI, machine learning, LLM, Nuevarix Dev" />
+  <meta name="author" content="Nuevarix Dev" />
+
+  <meta property="og:title" content="Nuevarix Dev — Agentic & Generative AI Engineering" />
+  <meta property="og:description" content="We design, build, and scale agentic AI, generative AI, and full-stack AI SaaS solutions." />
+  <meta property="og:type" content="website" />
+
+  <title>Nuevarix Dev — Agentic & Generative AI Engineering</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <meta property="og:image" content="assets/logo.png" />
+</head>
+<body>
+  <!-- Animated background orbs -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="Nuevarix Dev home">
+        <span class="logo-mark">
+          <img src="assets/logo.png" alt="Nuevarix Dev logo" />
+        </span>
+        <span class="logo-text">Nuevarix<span class="logo-accent"> Dev</span></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#projects">Work</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta">
+        <span>Book a Call</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="pulse-dot"></span>
+        <span>Now booking AI engagements for Q3 2026</span>
+      </div>
+
+      <h1 class="hero-title">
+        We Design, Build, and Scale
+        <span class="gradient-text">AI-Powered</span> Software That Ships.
+      </h1>
+
+      <p class="hero-sub">
+        Nuevarix Dev is a senior AI engineering studio. We build production-grade
+        agentic systems, generative AI products, and full-stack AI SaaS — from
+        first prompt to enterprise-scale deployment.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary btn-lg">
+          <span>Start Your AI Project</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#projects" class="btn btn-ghost btn-lg">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M10 8l6 4-6 4V8z" fill="currentColor"/></svg>
+          <span>View Our Work</span>
+        </a>
+      </div>
+
+      <!-- Floating capability cards -->
+      <div class="hero-capabilities" aria-hidden="true">
+        <div class="cap-card cap-1">
+          <div class="cap-icon">⚡</div>
+          <div>
+            <div class="cap-title">Agentic AI</div>
+            <div class="cap-meta">LangGraph · CrewAI</div>
+          </div>
+        </div>
+        <div class="cap-card cap-2">
+          <div class="cap-icon">◈</div>
+          <div>
+            <div class="cap-title">Generative AI</div>
+            <div class="cap-meta">GPT · Claude · Llama</div>
+          </div>
+        </div>
+        <div class="cap-card cap-3">
+          <div class="cap-icon">∞</div>
+          <div>
+            <div class="cap-title">AI SaaS</div>
+            <div class="cap-meta">Production-grade</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST / STATS BAR -->
+  <section class="stats" aria-label="Company impact">
+    <div class="container stats-grid">
+      <div class="stat">
+        <div class="stat-num" data-count="40">0</div><span class="plus">+</span>
+        <div class="stat-label">AI Projects Delivered</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="25">0</div><span class="plus">+</span>
+        <div class="stat-label">Global Clients</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="6">0</div><span class="plus">+</span>
+        <div class="stat-label">Years AI Engineering</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="99">0</div><span class="plus">%</span>
+        <div class="stat-label">Client Retention</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">What we do</div>
+        <h2 class="section-title">End-to-end <span class="gradient-text">AI engineering</span>, from idea to scale.</h2>
+        <p class="section-sub">Six tightly-integrated practices that take AI products from research prototype to production SaaS.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6L3 9l6-1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Agentic AI Systems</h3>
+          <p>Multi-agent workflows, tool-using autonomous agents, and orchestration layers built on LangGraph, CrewAI, and the Claude Agent SDK.</p>
+          <ul class="service-tags">
+            <li>LangGraph</li><li>CrewAI</li><li>MCP</li><li>Tool use</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 7l8-4 8 4-8 4-8-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 12l8 4 8-4M4 17l8 4 8-4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Generative AI Products</h3>
+          <p>RAG pipelines, fine-tuned models, and custom GPT/Claude/Llama applications grounded in your proprietary data.</p>
+          <ul class="service-tags">
+            <li>RAG</li><li>Fine-tuning</li><li>Vector DBs</li><li>Embeddings</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h18M9 21V9" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Full-Stack AI SaaS</h3>
+          <p>Production-grade SaaS platforms — auth, billing, multi-tenant, dashboards — wrapped around your AI core.</p>
+          <ul class="service-tags">
+            <li>Next.js</li><li>FastAPI</li><li>Postgres</li><li>Stripe</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>AI Automation</h3>
+          <p>Workflow automations that replace repetitive ops with reliable, observable agents — n8n, Make, custom pipelines.</p>
+          <ul class="service-tags">
+            <li>n8n</li><li>Zapier</li><li>Workflows</li><li>Webhooks</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>AI Strategy & Consulting</h3>
+          <p>Roadmaps, model selection, build-vs-buy, evaluation frameworks, and AI governance for enterprise teams.</p>
+          <ul class="service-tags">
+            <li>Roadmap</li><li>Evals</li><li>Governance</li><li>ROI</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M3.27 6.96L12 12l8.73-5.04M12 22.08V12" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Cloud & MLOps</h3>
+          <p>GPU infra, model serving, evaluation pipelines, monitoring, and cost-optimized inference at scale.</p>
+          <ul class="service-tags">
+            <li>AWS</li><li>GCP</li><li>Docker</li><li>Kubernetes</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS / INDUSTRIES -->
+  <section class="section section-alt" id="solutions">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Industries we serve</div>
+        <h2 class="section-title">AI that fits your <span class="gradient-text">domain</span>.</h2>
+        <p class="section-sub">We've shipped AI products across regulated, high-stakes, and customer-facing industries.</p>
+      </div>
+
+      <div class="industries-grid">
+        <div class="industry"><span>🏥</span><div>Healthcare AI</div></div>
+        <div class="industry"><span>💼</span><div>Fintech</div></div>
+        <div class="industry"><span>🛒</span><div>E-commerce</div></div>
+        <div class="industry"><span>🎓</span><div>EdTech</div></div>
+        <div class="industry"><span>⚖️</span><div>Legal Tech</div></div>
+        <div class="industry"><span>🏠</span><div>Real Estate</div></div>
+        <div class="industry"><span>📞</span><div>Customer Support</div></div>
+        <div class="industry"><span>📈</span><div>Sales & Marketing</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / WORK -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Selected work</div>
+        <h2 class="section-title">Real AI products. <span class="gradient-text">Real outcomes.</span></h2>
+        <p class="section-sub">A glimpse at what we've shipped for clients. Full case studies on request.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-cover project-cover-img">
+            <img src="assets/project-salespilot.png" alt="SalesPilot AI dashboard" loading="lazy" />
+            <div class="project-tag">AI SaaS · Sales Automation</div>
+          </div>
+          <div class="project-body">
+            <h3>SalesPilot AI</h3>
+            <p>End-to-end AI sales platform: smart CRM, real-time analytics, and intelligent meeting booking — built to modernize revenue teams.</p>
+            <div class="project-meta"><span>Next.js</span><span>OpenAI</span><span>FastAPI</span><span>Postgres</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-cover project-cover-img">
+            <img src="assets/project-rag.png" alt="Agentic RAG Assistant interface" loading="lazy" />
+            <div class="project-tag">Agentic AI · Generative AI</div>
+          </div>
+          <div class="project-body">
+            <h3>Agentic RAG Assistant</h3>
+            <p>Multi-step retrieval pipeline with query analysis, vector search, and memory — citation-grounded answers over enterprise data.</p>
+            <div class="project-meta"><span>LangGraph</span><span>Claude</span><span>Vector DB</span><span>RAG</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-cover project-cover-img">
+            <img src="assets/project-ocr.png" alt="EasyOCR text recognition platform" loading="lazy" />
+            <div class="project-tag">Computer Vision · AI SaaS</div>
+          </div>
+          <div class="project-body">
+            <h3>EasyOCR — Intelligent Text Recognition</h3>
+            <p>Full-stack OCR SaaS that extracts printed and handwritten text from images with confidence scores and structured exports.</p>
+            <div class="project-meta"><span>EasyOCR</span><span>FastAPI</span><span>React</span><span>S3</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-cover project-cover-img">
+            <img src="assets/project-realestate.png" alt="AI Lead Qualifier dashboard for real estate agencies" loading="lazy" />
+            <div class="project-tag">Voice AI · Real Estate</div>
+          </div>
+          <div class="project-body">
+            <h3>AI Lead Qualifier — Real Estate</h3>
+            <p>Voice agent that calls every inbound lead within 60 seconds, qualifies them, books appointments, and logs everything to CRM.</p>
+            <div class="project-meta"><span>Twilio</span><span>ElevenLabs</span><span>Claude</span><span>HubSpot</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-cover project-cover-img">
+            <img src="assets/project-voiceflow.png" alt="VoiceFlow AI operations dashboard" loading="lazy" />
+            <div class="project-tag">Voice AI · AI SaaS</div>
+          </div>
+          <div class="project-body">
+            <h3>VoiceFlow AI — Voice Operations Platform</h3>
+            <p>End-to-end voice agent SaaS with a live operations dashboard: total calls, conversion funnel, recent calls, and system health monitoring.</p>
+            <div class="project-meta"><span>Next.js</span><span>Twilio</span><span>OpenAI Realtime</span><span>Postgres</span></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-cover project-cover-img">
+            <img src="assets/project-telegram-bot.jpg" alt="Telegram healthcare patient bot n8n workflow" loading="lazy" />
+            <div class="project-tag">AI Automation · Healthcare</div>
+          </div>
+          <div class="project-body">
+            <h3>Telegram Patient Care Bot</h3>
+            <p>n8n-powered Telegram agent that authenticates patients, manages medication reminders, and stores conversation context in Postgres.</p>
+            <div class="project-meta"><span>n8n</span><span>Telegram API</span><span>Postgres</span><span>OpenAI</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">How we work</div>
+        <h2 class="section-title">A <span class="gradient-text">battle-tested</span> delivery process.</h2>
+        <p class="section-sub">Senior engineers, transparent sprints, and demos every week. No black boxes.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h4>Discovery</h4>
+          <p>We map your problem, data, and constraints. You leave with a feasibility memo and ROI model.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h4>Prototype</h4>
+          <p>A working AI prototype in 2–3 weeks. Real data, real evaluations, real numbers.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h4>Productionize</h4>
+          <p>We build the full stack around your AI — auth, billing, dashboards, monitoring, infra.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <h4>Scale & Iterate</h4>
+          <p>Ongoing evals, cost optimization, and feature work. We grow the system as you grow users.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section" id="team">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Leadership</div>
+        <h2 class="section-title">Meet the <span class="gradient-text">founders</span>.</h2>
+        <p class="section-sub">Senior engineers who have shipped AI in production for years — not a marketing layer with no builders behind it.</p>
+      </div>
+
+      <div class="team-grid">
+        <article class="team-card">
+          <div class="team-avatar team-avatar-photo" style="--c1:#00e5ff;--c2:#7c3aed;">
+            <img src="assets/asad-nawaz.png" alt="Asad Nawaz, CEO and Founder of Nuevarix Dev" />
+          </div>
+          <h3>Asad Nawaz</h3>
+          <div class="team-role">CEO &amp; Founder</div>
+          <p>Senior AI Engineer specializing in agentic AI, generative AI, RAG systems, and full-stack AI SaaS. Leads product vision, AI architecture, and engineering strategy across every Nuevarix Dev engagement.</p>
+          <div class="team-socials">
+            <a href="https://www.linkedin.com/in/ai-asadnawaz/" target="_blank" rel="noopener" aria-label="Asad Nawaz on LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zM8.34 18.34V10H5.67v8.34h2.67zM7 8.84A1.55 1.55 0 105.45 7.3 1.55 1.55 0 007 8.84zM18.34 18.34v-4.57c0-2.39-1.28-3.5-3-3.5a2.59 2.59 0 00-2.34 1.29V10h-2.67v8.34h2.67v-4.65a1.43 1.43 0 011.5-1.55c.84 0 1.17.64 1.17 1.55v4.65h2.67z"/></svg>
+            </a>
+            <a href="https://github.com/asadnawazai" target="_blank" rel="noopener" aria-label="Asad Nawaz on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A12 12 0 000 12.5a12 12 0 008.21 11.4c.6.11.82-.26.82-.58v-2c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.08 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0024 12.5 12 12 0 0012 .5z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar team-avatar-photo" style="--c1:#7c3aed;--c2:#ec4899;">
+            <img src="assets/imran-ashraf.jpeg" alt="Imran Ashraf, Co-Founder and Tech Lead at Nuevarix Dev" />
+          </div>
+          <h3>Imran Ashraf</h3>
+          <div class="team-role">Co-Founder &amp; Tech Lead</div>
+          <p>Senior software engineer leading the engineering team. Owns architecture, infrastructure, and the bar for production-grade AI systems.</p>
+          <div class="team-socials">
+            <a href="https://github.com/aideveloper250-lgtm" target="_blank" rel="noopener" aria-label="Imran Ashraf on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A12 12 0 000 12.5a12 12 0 008.21 11.4c.6.11.82-.26.82-.58v-2c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.08 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0024 12.5 12 12 0 0012 .5z"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-avatar" style="--c1:#10b981;--c2:#00e5ff;">AA</div>
+          <h3>Aleeza Ashraf</h3>
+          <div class="team-role">Senior Project Manager</div>
+          <p>Owns project delivery and client success. Keeps every engagement on time, on scope, and aligned with the client's business outcomes.</p>
+          <div class="team-socials">
+            <a href="mailto:aideveloper250@gmail.com" aria-label="Email Aleeza Ashraf">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">What clients say</div>
+        <h2 class="section-title">Trusted by founders, CTOs, <span class="gradient-text">and operators</span>.</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <blockquote class="testimonial">
+          <div class="quote-mark">"</div>
+          <p>Nuevarix Dev shipped our agentic SDR in three weeks. It's been the highest-leverage hire we've made — booking meetings while we sleep.</p>
+          <footer><strong>Founder &amp; CEO</strong><span>SaaS Startup, USA</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <div class="quote-mark">"</div>
+          <p>They actually understand RAG. Most agencies talk about AI; Asad's team builds it. Our knowledge base launched on time and ahead of spec.</p>
+          <footer><strong>VP Engineering</strong><span>Enterprise SaaS, UK</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <div class="quote-mark">"</div>
+          <p>Senior engineers from day one. Weekly demos, real evals, no fluff. The whole engagement felt like an extension of our internal team.</p>
+          <footer><strong>Head of Product</strong><span>Healthcare AI, EU</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTACT -->
+  <section class="section cta-section" id="contact">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-grid">
+          <div>
+            <div class="eyebrow">Let's build</div>
+            <h2 class="section-title" style="margin-bottom: .8rem;">Have an AI idea? <span class="gradient-text">Let's ship it.</span></h2>
+            <p class="section-sub" style="margin-bottom: 2rem;">Tell us about your project. We'll come back within 24 hours with a feasibility take and a proposed first milestone.</p>
+
+            <div class="contact-list">
+              <a href="mailto:aideveloper250@gmail.com" class="contact-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+                <div>
+                  <div class="ci-label">Email</div>
+                  <div class="ci-val">aideveloper250@gmail.com</div>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/ai-asadnawaz/" target="_blank" rel="noopener" class="contact-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zM8.34 18.34V10H5.67v8.34h2.67zM7 8.84A1.55 1.55 0 105.45 7.3 1.55 1.55 0 007 8.84zM18.34 18.34v-4.57c0-2.39-1.28-3.5-3-3.5a2.59 2.59 0 00-2.34 1.29V10h-2.67v8.34h2.67v-4.65a1.43 1.43 0 011.5-1.55c.84 0 1.17.64 1.17 1.55v4.65h2.67z"/></svg>
+                <div>
+                  <div class="ci-label">LinkedIn</div>
+                  <div class="ci-val">/in/ai-asadnawaz</div>
+                </div>
+              </a>
+              <a href="https://github.com/aideveloper250-lgtm" target="_blank" rel="noopener" class="contact-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A12 12 0 000 12.5a12 12 0 008.21 11.4c.6.11.82-.26.82-.58v-2c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.08 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0024 12.5 12 12 0 0012 .5z"/></svg>
+                <div>
+                  <div class="ci-label">GitHub (Company)</div>
+                  <div class="ci-val">@aideveloper250-lgtm</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="cf-name">Your name</label>
+              <input id="cf-name" name="name" type="text" required placeholder="Jane Doe" />
+            </div>
+            <div class="field">
+              <label for="cf-email">Work email</label>
+              <input id="cf-email" name="email" type="email" required placeholder="jane@company.com" />
+            </div>
+            <div class="field">
+              <label for="cf-company">Company</label>
+              <input id="cf-company" name="company" type="text" placeholder="Acme Inc." />
+            </div>
+            <div class="field">
+              <label for="cf-msg">What are you building?</label>
+              <textarea id="cf-msg" name="message" rows="4" required placeholder="A short paragraph about the AI problem you'd like us to solve."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="form-status" id="formStatus" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo" aria-label="Nuevarix Dev home">
+          <span class="logo-mark">
+            <img src="assets/logo.png" alt="Nuevarix Dev logo" />
+          </span>
+          <span class="logo-text">Nuevarix<span class="logo-accent"> Dev</span></span>
+        </a>
+        <p class="footer-tag">Senior AI engineering studio. We design, build, and scale agentic, generative, and full-stack AI products.</p>
+        <div class="footer-socials">
+          <a href="https://github.com/aideveloper250-lgtm" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A12 12 0 000 12.5a12 12 0 008.21 11.4c.6.11.82-.26.82-.58v-2c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.08 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0024 12.5 12 12 0 0012 .5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ai-asadnawaz/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zM8.34 18.34V10H5.67v8.34h2.67zM7 8.84A1.55 1.55 0 105.45 7.3 1.55 1.55 0 007 8.84zM18.34 18.34v-4.57c0-2.39-1.28-3.5-3-3.5a2.59 2.59 0 00-2.34 1.29V10h-2.67v8.34h2.67v-4.65a1.43 1.43 0 011.5-1.55c.84 0 1.17.64 1.17 1.55v4.65h2.67z"/></svg>
+          </a>
+          <a href="mailto:aideveloper250@gmail.com" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Agentic AI</a></li>
+          <li><a href="#services">Generative AI</a></li>
+          <li><a href="#services">AI SaaS</a></li>
+          <li><a href="#services">AI Automation</a></li>
+          <li><a href="#services">MLOps &amp; Cloud</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#solutions">Industries</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Get in touch</h5>
+        <ul>
+          <li><a href="mailto:aideveloper250@gmail.com">aideveloper250@gmail.com</a></li>
+          <li><a href="https://github.com/aideveloper250-lgtm" target="_blank" rel="noopener">github.com/aideveloper250-lgtm</a></li>
+          <li><a href="https://www.linkedin.com/in/ai-asadnawaz/" target="_blank" rel="noopener">linkedin.com/in/ai-asadnawaz</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>&copy; <span id="year"></span> Nuevarix Dev. All rights reserved.</span>
+      <span>Built with care for ambitious AI teams.</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
