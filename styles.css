@@ -3,30 +3,30 @@
    ========================================================= */
 
 :root {
-  --bg: #07080d;
-  --bg-2: #0c0e16;
-  --surface: rgba(255, 255, 255, 0.04);
-  --surface-2: rgba(255, 255, 255, 0.06);
-  --border: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.14);
+  --bg: #ffffff;
+  --bg-2: #f7f8fb;
+  --surface: rgba(15, 23, 42, 0.04);
+  --surface-2: rgba(15, 23, 42, 0.07);
+  --border: rgba(15, 23, 42, 0.10);
+  --border-strong: rgba(15, 23, 42, 0.18);
 
-  --text: #e8ecf2;
-  --text-muted: #98a2b3;
+  --text: #0b1220;
+  --text-muted: #4b5563;
   --text-dim: #6b7280;
 
-  --primary: #00e5ff;
+  --primary: #00b8d4;
   --primary-2: #7c3aed;
   --accent: #ec4899;
 
-  --gradient-primary: linear-gradient(135deg, #00e5ff 0%, #7c3aed 100%);
-  --gradient-soft: linear-gradient(135deg, rgba(0, 229, 255, 0.18), rgba(124, 58, 237, 0.18));
+  --gradient-primary: linear-gradient(135deg, #00b8d4 0%, #7c3aed 100%);
+  --gradient-soft: linear-gradient(135deg, rgba(0, 184, 212, 0.14), rgba(124, 58, 237, 0.14));
 
   --radius-sm: 10px;
   --radius: 16px;
   --radius-lg: 24px;
 
-  --shadow-glow: 0 0 60px rgba(0, 229, 255, 0.15);
-  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 30px 60px -30px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 60px rgba(0, 184, 212, 0.18);
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.7) inset, 0 24px 50px -28px rgba(15, 23, 42, 0.25);
 
   --container: 1200px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -72,12 +72,12 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   position: absolute;
   border-radius: 50%;
   filter: blur(120px);
-  opacity: 0.5;
+  opacity: 0.22;
   will-change: transform;
 }
 .orb-1 {
   width: 500px; height: 500px;
-  background: radial-gradient(circle, #00e5ff 0%, transparent 70%);
+  background: radial-gradient(circle, #00b8d4 0%, transparent 70%);
   top: -200px; left: -150px;
   animation: float1 20s ease-in-out infinite;
 }
@@ -91,7 +91,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   width: 400px; height: 400px;
   background: radial-gradient(circle, #ec4899 0%, transparent 70%);
   bottom: -100px; left: 30%;
-  opacity: 0.3;
+  opacity: 0.16;
   animation: float3 30s ease-in-out infinite;
 }
 @keyframes float1 { 0%,100%{transform:translate(0,0)} 50%{transform:translate(60px,80px)} }
@@ -103,8 +103,8 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   inset: 0;
   z-index: -1;
   background-image:
-    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    linear-gradient(rgba(15,23,42,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15,23,42,0.05) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
   -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
@@ -122,7 +122,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   transition: all 0.3s var(--ease);
 }
 .nav.scrolled {
-  background: rgba(7, 8, 13, 0.8);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
@@ -227,12 +227,12 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 
 .btn-primary {
   background: var(--gradient-primary);
-  color: #07080d;
-  box-shadow: 0 8px 30px rgba(0, 229, 255, 0.25);
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 184, 212, 0.28);
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(0, 229, 255, 0.4);
+  box-shadow: 0 12px 32px rgba(124, 58, 237, 0.35);
 }
 .btn-primary:active { transform: translateY(0); }
 
@@ -330,7 +330,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   align-items: center;
   gap: 0.7rem;
   padding: 0.8rem 1.1rem;
-  background: rgba(12, 14, 22, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
   backdrop-filter: blur(20px);
@@ -370,7 +370,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   padding: 3rem 0;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  background: rgba(255,255,255,0.015);
+  background: rgba(15,23,42,0.025);
 }
 .stats-grid {
   display: grid;
@@ -403,7 +403,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
    SECTIONS
    ========================================================= */
 .section { padding: 6rem 0; position: relative; }
-.section-alt { background: rgba(255,255,255,0.015); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.section-alt { background: rgba(15,23,42,0.025); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 
 .section-head { text-align: center; max-width: 760px; margin: 0 auto 3.5rem; }
 .eyebrow {
@@ -567,7 +567,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 }
 
 /* Real product UI screenshot covers */
-.project-cover-img { background: #0a0d14; }
+.project-cover-img { background: #f1f5f9; }
 .project-cover-img::before { display: none; }
 .project-cover-img img {
   width: 100%; height: 100%;
@@ -842,7 +842,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 
 .contact-form {
   display: flex; flex-direction: column; gap: 1rem;
-  background: rgba(7,8,13,0.5);
+  background: rgba(255,255,255,0.7);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 2rem;
@@ -894,7 +894,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .footer {
   border-top: 1px solid var(--border);
   padding: 4rem 0 2rem;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(15, 23, 42, 0.03);
 }
 .footer-grid {
   display: grid;
@@ -991,7 +991,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
     align-items: stretch;
     padding: 1.5rem;
     margin-top: 0.6rem;
-    background: rgba(12, 14, 22, 0.95);
+    background: rgba(255, 255, 255, 0.96);
     backdrop-filter: blur(20px);
     border: 1px solid var(--border-strong);
     border-radius: var(--radius);
