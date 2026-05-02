@@ -118,7 +118,7 @@
 
       const subject = encodeURIComponent(`New project inquiry from ${name}${company ? ' — ' + company : ''}`);
       const body = encodeURIComponent(
-        `Name: ${name}\nEmail: ${email}\nCompany: ${company || '—'}\n\nProject:\n${message}\n\n— Sent from nuevarix.dev contact form`
+        `Name: ${name}\nEmail: ${email}\nCompany: ${company || '—'}\n\nProject:\n${message}\n\n— Sent from nestdev contact form`
       );
       window.location.href = `mailto:aideveloper250@gmail.com?subject=${subject}&body=${body}`;
 
