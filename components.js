@@ -5,8 +5,8 @@
 (function () {
   'use strict';
 
-  // Replace this with your real WhatsApp number in full format, e.g. https://wa.me/447911123456
-  var WHATSAPP_URL = 'https://wa.me/10000000000';
+  // WhatsApp number in full international format, with a ready-made first message.
+  var WHATSAPP_URL = 'https://wa.me/923195125693?text=' + encodeURIComponent('Hi Nestdev, I want to talk about an AI project.');
   var EMAIL = 'aideveloper250@gmail.com';
   var LINKEDIN = 'https://www.linkedin.com/in/ai-asadnawaz/';
   var GITHUB = 'https://github.com/aideveloper250-lgtm';
